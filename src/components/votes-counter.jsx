@@ -11,6 +11,7 @@ return(
                )}
         </ul>
         <button onClick = {props.reset}>Reset</button>
+        {console.log(props,'proooooooooooops')}
     </section>
 )
 } 
