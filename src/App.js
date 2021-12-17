@@ -1,12 +1,19 @@
 import React from 'react'
-import Votes from './components/votes-counter';
-import Status from './components/status'
+import './app.css'
+import Categories from './components/categories';
+import Footer from './components/Footer';
+import Header from './components/Header';
+import Main from './components/main';
 function App() {
   return (
   <React.Fragment>
-    <Votes/>
-    <Status/>
+    <div className='container'>
 
+ <Header/> 
+ <Categories/>
+ <Main/>
+ <Footer/>
+    </div>
    </React.Fragment> 
   );
 }

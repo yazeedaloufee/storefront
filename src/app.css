@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(255, 244, 220);
+    margin:0;
+}
+.container {
+    width:90%;
+    border: 1px solid black; 
+    margin: 0 auto;
+    height: 100%;
+}
+
+.Header{
+    background-color: beige;
+    text-align: center;
+    ;
+
+}
+.site-Name{
+    background-color: cadetblue;
+    padding:.5rem;
+}
+.Footer{
+    bottom: 0;
+    text-align: center;
+}
+.display{
+    display:flex;
+    justify-content: center;
+}
