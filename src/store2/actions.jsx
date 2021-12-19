@@ -6,3 +6,7 @@ export const filter = (category)=>{
 export const all = ()=>{
     return{type:'All'}
 }
+export const addToCart=(category)=>{
+    return {type:'ADDTOCART',
+            payload:category}
+}
