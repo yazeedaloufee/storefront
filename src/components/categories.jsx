@@ -24,7 +24,7 @@ return(
     {props.categories.map(value=>{
       return(<MenuItem value = {`${value}`} key = {value}>{`${value}` }</MenuItem>)
     })}
-    {console.log(props,'porooooooooops')}
+    {/* {console.log(props,'porooooooooops')} */}
 {/* 
     <MenuItem value={'0'}>All</MenuItem>
     <MenuItem value={'TVs'}>TVs</MenuItem>

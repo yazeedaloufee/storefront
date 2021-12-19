@@ -1,6 +1,7 @@
 'use strict';
 import React, { useState } from 'react';
 import Button from '@mui/material/Button';
+import CartCount from './cart'
 const Header = () => {
 
     return (
@@ -17,6 +18,7 @@ const Header = () => {
                 <li>About us</li>  
                   </ul> 
                </div> 
+              <CartCount></CartCount> 
         </div>
     )
 }
